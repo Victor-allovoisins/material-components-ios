@@ -10,7 +10,7 @@ let package = Package(
         .iOS(.v14),
     ],
     products: [
-        .library(name: "TextFields", targets: ["TextFields"])
+        .library(name: "MaterialComponents", targets: ["MaterialComponents"])
     ],
     dependencies: [
         .package(url: "https://github.com/volvogroup-mobility/material-text-accessibility-ios", from: "2.0.1+volvo1"),
@@ -18,164 +18,70 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "AnimationTiming",
-            path: "components/AnimationTiming/src",
-            publicHeadersPath: ".",
-            cSettings: [.headerSearchPath("../../MinimumOS/src")]
-        ),
-        .target(
-            name: "Buttons",
+            name: "MaterialComponents",
             dependencies: [
                 .product(name: "MDFInternationalization", package: "material-internationalization-ios"),
-                .product(name: "MDFTextAccessibility", package: "material-text-accessibility-ios"),
-                "Elevation",
-                "Ink",
-                "Ripple",
-                "Shadow",
-                "ShadowElevations",
-                "ShadowLayer",
-                "ShapeLibrary",
-                "Shapes",
-                "Typography",
-                "PrivateMath"
+                .product(name: "MDFTextAccessibility", package: "material-text-accessibility-ios")
             ],
-            path: "components/Buttons/src",
+            path: "components",
             exclude: [
-                "ButtonThemer",
-                "ColorThemer",
-                "PerformantShadowMigration",
-                "ShapeThemer",
-                "Theming",
-                "TypographyThemer"
-            ],
-            cSettings: [.headerSearchPath("include")]
-        ),
-        .target(
-            name: "Color",
-            path: "components/Color/src",
-            publicHeadersPath: "."
-        ),
-        .target(
-            name: "Elevation",
-            dependencies: [
-                "Color",
-                "PrivateColor",
-                "PrivateMath"
-            ],
-            path: "components/Elevation/src",
-            publicHeadersPath: ".",
-            cSettings: [.headerSearchPath("../../Availability/src")]
-        ),
-        .target(
-            name: "Ink",
-            dependencies: [
-                "PrivateColor",
-                "PrivateMath"
-            ],
-            path: "components/Ink/src",
-            publicHeadersPath: ".",
-            cSettings: [.headerSearchPath("../../Availability/src"), .headerSearchPath("private")]
-        ),
-        .target(
-            name: "Palettes",
-            path: "components/Palettes/src",
-            publicHeadersPath: "."
-        ),
-        .target(
-            name: "Ripple",
-            dependencies: [
-                "AnimationTiming",
-                "PrivateColor",
-                "PrivateMath"
-            ],
-            path: "components/Ripple/src",
-            publicHeadersPath: ".",
-            cSettings: [.headerSearchPath("../../Availability/src")]
-        ),
-        .target(
-            name: "Shadow",
-            path: "components/Shadow/src",
-            exclude: ["Animations"],
-            publicHeadersPath: ".",
-            cSettings: [.headerSearchPath("../../Availability/src")]
-        ),
-        .target(
-            name: "ShadowElevations",
-            path: "components/ShadowElevations/src",
-            publicHeadersPath: "."
-        ),
-        .target(
-            name: "ShadowLayer",
-            dependencies: [
-                "ShadowElevations"
-            ],
-            path: "components/ShadowLayer/src",
-            publicHeadersPath: "."
-        ),
-        .target(
-            name: "ShapeLibrary",
-            dependencies: [
-                "Shapes",
-                "PrivateMath"
-            ],
-            path: "components/ShapeLibrary/src",
-            publicHeadersPath: "."
-        ),
-        .target(
-            name: "Shapes",
-            dependencies: [
-                "ShadowLayer",
-                "PrivateColor",
-                "PrivateMath"
-            ],
-            path: "components/Shapes/src",
-            publicHeadersPath: "."
-        ),
-        .target(
-            name: "TextFields",
-            dependencies: [
-                "AnimationTiming",
+                "ActionSheet",
+                "ActivityIndicator",
+                "AppBar",
+                "Badges",
+                "Banner",
+                "BottomAppBar",
+                "BottomNavigation",
+                "ButtonBar",
                 "Buttons",
-                "Elevation",
-                "Palettes",
-                "Typography",
-                "PrivateMath",
-                .product(name: "MDFInternationalization", package: "material-internationalization-ios")
+                "Cards",
+                "Carousel",
+                "Chips",
+                "CollectionCells",
+                "CollectionLayoutAttributes",
+                "Collections",
+                "Dialogs",
+                "FeatureHighlight",
+                "FlexibleHeader",
+                "HeaderStackView",
+                "LibraryInfo",
+                "List",
+                "M3CButton",
+                "M3CTextField",
+                "NavigationBar",
+                "NavigationDrawer",
+                "OverlayWindow",
+                "PageControl",
+                "ProgressView",
+                "ScalableFontDescriptor",
+                "SegmentedControl",
+                "Slider",
+                "Snackbar",
+                "Tabs",
+                "Themes",
+                "docs",
+                "README.md",
+                "Shadow/src/Animations",
+                "TextFields/src/Theming",
+                "TextFields/src/ColorThemer",
+                "TextControls/src/BaseTextAreas/private",
+                "TextControls/src/BaseTextFields/private",
+                "Typography/src/FontLoader",
+                "schemes/Typography/src/MDCLegacyFontScheme.h"
             ],
-            path: "components/TextFields/src",
-            exclude: ["Theming", "ColorThemer"],
-            cSettings: [.headerSearchPath("../../MinimumOS/src"), .headerSearchPath("include")]
-        ),
-        .target(
-            name: "Typography",
-            dependencies: [
-                .product(name: "MDFTextAccessibility", package: "material-text-accessibility-ios"),
-                "PrivateApplication",
-                "PrivateMath"
-            ],
-            path: "components/Typography/src",
-            exclude: ["FontLoader", "FontScaler"],
             publicHeadersPath: ".",
-            cSettings: [.headerSearchPath("private")]
-        ),
-
-        // Private
-
-        .target(
-            name: "PrivateApplication",
-            path: "components/private/Application/src",
-            publicHeadersPath: "."
-        ),
-        .target(
-            name: "PrivateColor",
-            path: "components/private/Color/src",
-            publicHeadersPath: ".",
-            cSettings: [.headerSearchPath("../../../Availability/src")]
-        ),
-        .target(
-            name: "PrivateMath",
-            path: "components/private/Math/src",
-            publicHeadersPath: "."
-        ),
+            cSettings: [
+                .headerSearchPath("."),
+                .headerSearchPath("private"),
+                .headerSearchPath("Availability/src"),
+                .headerSearchPath("MinimumOS/src"),
+                .headerSearchPath("Typography/src/private"),
+                .headerSearchPath("Typography/src/FontScaler"),
+                .headerSearchPath("TextControls/src/Enums"),
+                .headerSearchPath("schemes/Typography/src/Scheming"),
+                .headerSearchPath("schemes/Typography/src/BasicFontScheme"),
+                .define("SWIFT_PACKAGE")
+            ]
+        )
     ]
 )
