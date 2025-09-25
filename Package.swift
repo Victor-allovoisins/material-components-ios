@@ -24,6 +24,12 @@ let package = Package(
                 .product(name: "MDFTextAccessibility", package: "material-text-accessibility-ios")
             ],
             path: ".",
+            exclude: [
+                "components/*/examples",
+                "components/*/tests",
+                "components/*/*/examples",
+                "components/*/*/tests"
+            ],
             sources: [
                 "components/TextControls/src/OutlinedTextFields",
                 "components/TextControls/src/OutlinedTextAreas",
