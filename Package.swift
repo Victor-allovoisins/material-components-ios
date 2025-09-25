@@ -44,7 +44,8 @@ let package = Package(
                 "components/ShadowElevations/src",
                 "components/Elevation/src",
                 "components/Color/src",
-                "components/private/Color/src"
+                "components/private/Color/src",
+                "components/schemes/Container/src"
             ],
             publicHeadersPath: "components/Availability/src",
             cSettings: [
@@ -53,6 +54,7 @@ let package = Package(
                 .headerSearchPath("components/private"),
                 .headerSearchPath("components/Typography/src/private"),
                 .headerSearchPath("components/Typography/src/FontScaler"),
+                .headerSearchPath("components/schemes"),
                 .define("SWIFT_PACKAGE")
             ]
         )
