@@ -1,0 +1,4 @@
+module TextControlsBaseTextFields {
+    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/TextControls/src/BaseTextFields"
+    export *
+}

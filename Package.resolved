@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "material-internationalization-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/volvogroup-mobility/material-internationalization-ios",
+      "state" : {
+        "revision" : "ec2622c17d0146550b917f229255d38b052412db",
+        "version" : "3.0.0+volvo1"
+      }
+    },
+    {
+      "identity" : "material-text-accessibility-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/volvogroup-mobility/material-text-accessibility-ios",
+      "state" : {
+        "revision" : "4d53e2c52b3bc1f82f84ef16d1a5b641e4d4b57e",
+        "version" : "2.0.1+volvo1"
+      }
+    }
+  ],
+  "version" : 2
+}

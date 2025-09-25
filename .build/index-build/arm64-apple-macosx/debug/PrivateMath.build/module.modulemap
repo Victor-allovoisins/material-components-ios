@@ -1,0 +1,4 @@
+module PrivateMath {
+    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/private/Math/src"
+    export *
+}

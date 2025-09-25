@@ -1,0 +1,4 @@
+module BottomSheet {
+    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/BottomSheet/src"
+    export *
+}

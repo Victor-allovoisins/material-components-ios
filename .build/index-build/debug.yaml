@@ -1,0 +1,156 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "AnimationTiming-arm64-apple-macosx26.0-debug.module": ["<AnimationTiming-arm64-apple-macosx26.0-debug.module>"]
+  "Availability-arm64-apple-macosx26.0-debug.module": ["<Availability-arm64-apple-macosx26.0-debug.module>"]
+  "BottomSheet-arm64-apple-macosx26.0-debug.module": ["<BottomSheet-arm64-apple-macosx26.0-debug.module>"]
+  "Buttons-arm64-apple-macosx26.0-debug.module": ["<Buttons-arm64-apple-macosx26.0-debug.module>"]
+  "Color-arm64-apple-macosx26.0-debug.module": ["<Color-arm64-apple-macosx26.0-debug.module>"]
+  "Elevation-arm64-apple-macosx26.0-debug.module": ["<Elevation-arm64-apple-macosx26.0-debug.module>"]
+  "Ink-arm64-apple-macosx26.0-debug.module": ["<Ink-arm64-apple-macosx26.0-debug.module>"]
+  "MDFInternationalization-arm64-apple-macosx26.0-debug.module": ["<MDFInternationalization-arm64-apple-macosx26.0-debug.module>"]
+  "MDFTextAccessibility-arm64-apple-macosx26.0-debug.module": ["<MDFTextAccessibility-arm64-apple-macosx26.0-debug.module>"]
+  "MinimumOS-arm64-apple-macosx26.0-debug.module": ["<MinimumOS-arm64-apple-macosx26.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "Palettes-arm64-apple-macosx26.0-debug.module": ["<Palettes-arm64-apple-macosx26.0-debug.module>"]
+  "PrivateApplication-arm64-apple-macosx26.0-debug.module": ["<PrivateApplication-arm64-apple-macosx26.0-debug.module>"]
+  "PrivateColor-arm64-apple-macosx26.0-debug.module": ["<PrivateColor-arm64-apple-macosx26.0-debug.module>"]
+  "PrivateKeyboardWatcher-arm64-apple-macosx26.0-debug.module": ["<PrivateKeyboardWatcher-arm64-apple-macosx26.0-debug.module>"]
+  "PrivateMath-arm64-apple-macosx26.0-debug.module": ["<PrivateMath-arm64-apple-macosx26.0-debug.module>"]
+  "Ripple-arm64-apple-macosx26.0-debug.module": ["<Ripple-arm64-apple-macosx26.0-debug.module>"]
+  "SchemeColor-arm64-apple-macosx26.0-debug.module": ["<SchemeColor-arm64-apple-macosx26.0-debug.module>"]
+  "SchemeContainer-arm64-apple-macosx26.0-debug.module": ["<SchemeContainer-arm64-apple-macosx26.0-debug.module>"]
+  "SchemeShape-arm64-apple-macosx26.0-debug.module": ["<SchemeShape-arm64-apple-macosx26.0-debug.module>"]
+  "SchemeTypography-arm64-apple-macosx26.0-debug.module": ["<SchemeTypography-arm64-apple-macosx26.0-debug.module>"]
+  "Shadow-arm64-apple-macosx26.0-debug.module": ["<Shadow-arm64-apple-macosx26.0-debug.module>"]
+  "ShadowElevations-arm64-apple-macosx26.0-debug.module": ["<ShadowElevations-arm64-apple-macosx26.0-debug.module>"]
+  "ShadowLayer-arm64-apple-macosx26.0-debug.module": ["<ShadowLayer-arm64-apple-macosx26.0-debug.module>"]
+  "ShapeLibrary-arm64-apple-macosx26.0-debug.module": ["<ShapeLibrary-arm64-apple-macosx26.0-debug.module>"]
+  "Shapes-arm64-apple-macosx26.0-debug.module": ["<Shapes-arm64-apple-macosx26.0-debug.module>"]
+  "TextControlsBaseTextAreas-arm64-apple-macosx26.0-debug.module": ["<TextControlsBaseTextAreas-arm64-apple-macosx26.0-debug.module>"]
+  "TextControlsBaseTextFields-arm64-apple-macosx26.0-debug.module": ["<TextControlsBaseTextFields-arm64-apple-macosx26.0-debug.module>"]
+  "TextControlsEnums-arm64-apple-macosx26.0-debug.module": ["<TextControlsEnums-arm64-apple-macosx26.0-debug.module>"]
+  "TextControlsOutlinedTextAreas-arm64-apple-macosx26.0-debug.module": ["<TextControlsOutlinedTextAreas-arm64-apple-macosx26.0-debug.module>"]
+  "TextControlsOutlinedTextFields-arm64-apple-macosx26.0-debug.module": ["<TextControlsOutlinedTextFields-arm64-apple-macosx26.0-debug.module>"]
+  "TextControlsPrivateBaseStyle-arm64-apple-macosx26.0-debug.module": ["<TextControlsPrivateBaseStyle-arm64-apple-macosx26.0-debug.module>"]
+  "TextControlsPrivateOutlinedStyle-arm64-apple-macosx26.0-debug.module": ["<TextControlsPrivateOutlinedStyle-arm64-apple-macosx26.0-debug.module>"]
+  "TextControlsPrivateShared-arm64-apple-macosx26.0-debug.module": ["<TextControlsPrivateShared-arm64-apple-macosx26.0-debug.module>"]
+  "TextControlsPrivateTextFields-arm64-apple-macosx26.0-debug.module": ["<TextControlsPrivateTextFields-arm64-apple-macosx26.0-debug.module>"]
+  "TextFields-arm64-apple-macosx26.0-debug.module": ["<TextFields-arm64-apple-macosx26.0-debug.module>"]
+  "Typography-arm64-apple-macosx26.0-debug.module": ["<Typography-arm64-apple-macosx26.0-debug.module>"]
+  "main": []
+  "test": []
+default: "main"
+nodes:
+  "/Users/victor/Developer/iOS/material-components-ios/components/AnimationTiming/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/Availability/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/BottomSheet/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/Buttons/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/Color/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/Elevation/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/Ink/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/MinimumOS/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/Palettes/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/Ripple/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/Shadow/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/ShadowElevations/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/ShadowLayer/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/ShapeLibrary/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/Shapes/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/TextControls/src/BaseTextAreas/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/TextControls/src/BaseTextFields/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/TextControls/src/Enums/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/TextControls/src/OutlinedTextAreas/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/TextControls/src/OutlinedTextFields/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/TextFields/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/Typography/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/private/Application/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/private/Color/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/private/KeyboardWatcher/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/private/Math/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/private/TextControlsPrivate/src/BaseStyle/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/private/TextControlsPrivate/src/OutlinedStyle/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/private/TextControlsPrivate/src/Shared/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/private/TextControlsPrivate/src/TextFields/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/schemes/Color/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/schemes/Container/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/schemes/Shape/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/victor/Developer/iOS/material-components-ios/components/schemes/Typography/src/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/victor/Developer/iOS/material-components-ios/components/AnimationTiming/src/","/Users/victor/Developer/iOS/material-components-ios/components/Availability/src/","/Users/victor/Developer/iOS/material-components-ios/components/BottomSheet/src/","/Users/victor/Developer/iOS/material-components-ios/components/Buttons/src/","/Users/victor/Developer/iOS/material-components-ios/components/Color/src/","/Users/victor/Developer/iOS/material-components-ios/components/Elevation/src/","/Users/victor/Developer/iOS/material-components-ios/components/Ink/src/","/Users/victor/Developer/iOS/material-components-ios/components/MinimumOS/src/","/Users/victor/Developer/iOS/material-components-ios/components/Palettes/src/","/Users/victor/Developer/iOS/material-components-ios/components/Ripple/src/","/Users/victor/Developer/iOS/material-components-ios/components/Shadow/src/","/Users/victor/Developer/iOS/material-components-ios/components/ShadowElevations/src/","/Users/victor/Developer/iOS/material-components-ios/components/ShadowLayer/src/","/Users/victor/Developer/iOS/material-components-ios/components/ShapeLibrary/src/","/Users/victor/Developer/iOS/material-components-ios/components/Shapes/src/","/Users/victor/Developer/iOS/material-components-ios/components/TextControls/src/BaseTextAreas/","/Users/victor/Developer/iOS/material-components-ios/components/TextControls/src/BaseTextFields/","/Users/victor/Developer/iOS/material-components-ios/components/TextControls/src/Enums/","/Users/victor/Developer/iOS/material-components-ios/components/TextControls/src/OutlinedTextAreas/","/Users/victor/Developer/iOS/material-components-ios/components/TextControls/src/OutlinedTextFields/","/Users/victor/Developer/iOS/material-components-ios/components/TextFields/src/","/Users/victor/Developer/iOS/material-components-ios/components/Typography/src/","/Users/victor/Developer/iOS/material-components-ios/components/private/Application/src/","/Users/victor/Developer/iOS/material-components-ios/components/private/Color/src/","/Users/victor/Developer/iOS/material-components-ios/components/private/KeyboardWatcher/src/","/Users/victor/Developer/iOS/material-components-ios/components/private/Math/src/","/Users/victor/Developer/iOS/material-components-ios/components/private/TextControlsPrivate/src/BaseStyle/","/Users/victor/Developer/iOS/material-components-ios/components/private/TextControlsPrivate/src/OutlinedStyle/","/Users/victor/Developer/iOS/material-components-ios/components/private/TextControlsPrivate/src/Shared/","/Users/victor/Developer/iOS/material-components-ios/components/private/TextControlsPrivate/src/TextFields/","/Users/victor/Developer/iOS/material-components-ios/components/schemes/Color/src/","/Users/victor/Developer/iOS/material-components-ios/components/schemes/Container/src/","/Users/victor/Developer/iOS/material-components-ios/components/schemes/Shape/src/","/Users/victor/Developer/iOS/material-components-ios/components/schemes/Typography/src/","/Users/victor/Developer/iOS/material-components-ios/Package.swift","/Users/victor/Developer/iOS/material-components-ios/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

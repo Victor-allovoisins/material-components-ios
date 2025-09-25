@@ -1,0 +1,4 @@
+module MDFInternationalization {
+    umbrella header "/Users/victor/Developer/iOS/material-components-ios/.build/index-build/checkouts/material-internationalization-ios/Sources/MDFInternationalization.h"
+    export *
+}

@@ -1,0 +1,4 @@
+module MDFTextAccessibility {
+    umbrella header "/Users/victor/Developer/iOS/material-components-ios/.build/index-build/checkouts/material-text-accessibility-ios/src/include/MDFTextAccessibility.h"
+    export *
+}

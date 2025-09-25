@@ -1,0 +1,277 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+
+  },
+  "targetDependencyMap" : {
+    "AnimationTiming" : [
+      "MinimumOS"
+    ],
+    "Availability" : [
+
+    ],
+    "BottomSheet" : [
+      "PrivateKeyboardWatcher",
+      "PrivateApplication",
+      "ShapeLibrary",
+      "Shapes",
+      "ShadowLayer",
+      "ShadowElevations",
+      "Elevation",
+      "PrivateMath",
+      "PrivateColor",
+      "Color"
+    ],
+    "Buttons" : [
+      "MDFInternationalization",
+      "Typography",
+      "MDFTextAccessibility",
+      "PrivateApplication",
+      "ShapeLibrary",
+      "Shapes",
+      "ShadowLayer",
+      "ShadowElevations",
+      "Shadow",
+      "Ripple",
+      "AnimationTiming",
+      "MinimumOS",
+      "Ink",
+      "Elevation",
+      "PrivateMath",
+      "PrivateColor",
+      "Color"
+    ],
+    "Color" : [
+
+    ],
+    "Elevation" : [
+      "PrivateMath",
+      "PrivateColor",
+      "Color"
+    ],
+    "Ink" : [
+      "PrivateMath",
+      "PrivateColor"
+    ],
+    "MDFInternationalization" : [
+
+    ],
+    "MDFTextAccessibility" : [
+
+    ],
+    "MinimumOS" : [
+
+    ],
+    "Palettes" : [
+
+    ],
+    "PrivateApplication" : [
+
+    ],
+    "PrivateColor" : [
+
+    ],
+    "PrivateKeyboardWatcher" : [
+      "PrivateApplication"
+    ],
+    "PrivateMath" : [
+
+    ],
+    "Ripple" : [
+      "PrivateMath",
+      "PrivateColor",
+      "AnimationTiming",
+      "MinimumOS"
+    ],
+    "SchemeColor" : [
+      "PrivateColor"
+    ],
+    "SchemeContainer" : [
+      "SchemeTypography",
+      "Typography",
+      "MDFTextAccessibility",
+      "PrivateApplication",
+      "SchemeShape",
+      "ShapeLibrary",
+      "Shapes",
+      "PrivateMath",
+      "ShadowLayer",
+      "ShadowElevations",
+      "SchemeColor",
+      "PrivateColor"
+    ],
+    "SchemeShape" : [
+      "ShapeLibrary",
+      "Shapes",
+      "PrivateMath",
+      "PrivateColor",
+      "ShadowLayer",
+      "ShadowElevations"
+    ],
+    "SchemeTypography" : [
+      "Typography",
+      "MDFTextAccessibility",
+      "PrivateMath",
+      "PrivateApplication"
+    ],
+    "Shadow" : [
+
+    ],
+    "ShadowElevations" : [
+
+    ],
+    "ShadowLayer" : [
+      "ShadowElevations"
+    ],
+    "ShapeLibrary" : [
+      "Shapes",
+      "PrivateMath",
+      "PrivateColor",
+      "ShadowLayer",
+      "ShadowElevations"
+    ],
+    "Shapes" : [
+      "PrivateMath",
+      "PrivateColor",
+      "ShadowLayer",
+      "ShadowElevations"
+    ],
+    "TextControlsBaseTextAreas" : [
+      "MDFInternationalization",
+      "TextControlsPrivateBaseStyle",
+      "TextControlsPrivateShared",
+      "PrivateMath",
+      "AnimationTiming",
+      "MinimumOS",
+      "TextControlsEnums"
+    ],
+    "TextControlsBaseTextFields" : [
+      "MDFInternationalization",
+      "TextControlsPrivateTextFields",
+      "TextControlsPrivateBaseStyle",
+      "TextControlsPrivateShared",
+      "PrivateMath",
+      "AnimationTiming",
+      "MinimumOS",
+      "TextControlsEnums"
+    ],
+    "TextControlsEnums" : [
+
+    ],
+    "TextControlsOutlinedTextAreas" : [
+      "TextControlsPrivateOutlinedStyle",
+      "Availability",
+      "TextControlsBaseTextAreas",
+      "MDFInternationalization",
+      "TextControlsPrivateBaseStyle",
+      "TextControlsPrivateShared",
+      "PrivateMath",
+      "AnimationTiming",
+      "MinimumOS",
+      "TextControlsEnums"
+    ],
+    "TextControlsOutlinedTextFields" : [
+      "TextControlsPrivateOutlinedStyle",
+      "Availability",
+      "TextControlsBaseTextFields",
+      "MDFInternationalization",
+      "TextControlsPrivateTextFields",
+      "TextControlsPrivateBaseStyle",
+      "TextControlsPrivateShared",
+      "PrivateMath",
+      "AnimationTiming",
+      "MinimumOS",
+      "TextControlsEnums"
+    ],
+    "TextControlsPrivateBaseStyle" : [
+      "TextControlsPrivateShared",
+      "PrivateMath",
+      "AnimationTiming",
+      "MinimumOS",
+      "TextControlsEnums"
+    ],
+    "TextControlsPrivateOutlinedStyle" : [
+      "TextControlsPrivateShared",
+      "PrivateMath",
+      "AnimationTiming",
+      "MinimumOS",
+      "TextControlsEnums",
+      "Availability"
+    ],
+    "TextControlsPrivateShared" : [
+      "PrivateMath",
+      "AnimationTiming",
+      "MinimumOS",
+      "TextControlsEnums"
+    ],
+    "TextControlsPrivateTextFields" : [
+      "TextControlsPrivateShared",
+      "PrivateMath",
+      "AnimationTiming",
+      "MinimumOS",
+      "TextControlsEnums"
+    ],
+    "TextFields" : [
+      "Palettes",
+      "Buttons",
+      "MDFInternationalization",
+      "Typography",
+      "MDFTextAccessibility",
+      "PrivateApplication",
+      "ShapeLibrary",
+      "Shapes",
+      "ShadowLayer",
+      "ShadowElevations",
+      "Shadow",
+      "Ripple",
+      "Ink",
+      "Elevation",
+      "PrivateMath",
+      "PrivateColor",
+      "Color",
+      "AnimationTiming",
+      "MinimumOS"
+    ],
+    "Typography" : [
+      "MDFTextAccessibility",
+      "PrivateMath",
+      "PrivateApplication"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+
+  }
+}

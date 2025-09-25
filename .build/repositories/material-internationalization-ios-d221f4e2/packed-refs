@@ -1,0 +1,5 @@
+# pack-refs with: peeled fully-peeled sorted 
+ec2622c17d0146550b917f229255d38b052412db refs/heads/develop
+136dddaa172ecf2e47ec9eda476877065a78abcc refs/heads/feature/swift-package-manager
+136dddaa172ecf2e47ec9eda476877065a78abcc refs/pull/1/head
+ec2622c17d0146550b917f229255d38b052412db refs/tags/3.0.0+volvo1

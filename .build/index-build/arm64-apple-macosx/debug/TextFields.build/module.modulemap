@@ -1,0 +1,4 @@
+module TextFields {
+    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/TextFields/src/include"
+    export *
+}

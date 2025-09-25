@@ -1,0 +1,4 @@
+module PrivateColor {
+    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/private/Color/src"
+    export *
+}

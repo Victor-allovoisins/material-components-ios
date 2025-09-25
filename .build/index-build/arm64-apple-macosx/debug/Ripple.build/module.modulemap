@@ -1,0 +1,4 @@
+module Ripple {
+    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/Ripple/src"
+    export *
+}
