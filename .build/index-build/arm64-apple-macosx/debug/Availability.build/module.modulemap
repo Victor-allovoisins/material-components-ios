@@ -1,4 +1,0 @@
-module Availability {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/Availability/src"
-    export *
-}

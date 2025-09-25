@@ -1,4 +1,0 @@
-module Buttons {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/Buttons/src/include"
-    export *
-}

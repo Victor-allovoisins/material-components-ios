@@ -1,4 +1,0 @@
-module ShadowLayer {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/ShadowLayer/src"
-    export *
-}

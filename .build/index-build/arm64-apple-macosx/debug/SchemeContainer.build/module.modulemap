@@ -1,4 +1,0 @@
-module SchemeContainer {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/schemes/Container/src"
-    export *
-}

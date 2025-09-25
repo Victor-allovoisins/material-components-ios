@@ -1,4 +1,0 @@
-module Elevation {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/Elevation/src"
-    export *
-}

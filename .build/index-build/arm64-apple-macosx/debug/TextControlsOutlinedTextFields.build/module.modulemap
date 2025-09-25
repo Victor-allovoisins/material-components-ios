@@ -1,4 +1,0 @@
-module TextControlsOutlinedTextFields {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/TextControls/src/OutlinedTextFields"
-    export *
-}

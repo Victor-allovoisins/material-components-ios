@@ -1,4 +1,0 @@
-module ShadowElevations {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/ShadowElevations/src"
-    export *
-}

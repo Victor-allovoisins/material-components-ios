@@ -1,4 +1,0 @@
-module Palettes {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/Palettes/src"
-    export *
-}

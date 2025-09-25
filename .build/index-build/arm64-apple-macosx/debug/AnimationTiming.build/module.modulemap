@@ -1,4 +1,0 @@
-module AnimationTiming {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/AnimationTiming/src"
-    export *
-}

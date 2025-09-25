@@ -1,4 +1,0 @@
-module TextControlsPrivateShared {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/private/TextControlsPrivate/src/Shared"
-    export *
-}

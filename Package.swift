@@ -23,6 +23,7 @@ let package = Package(
                 .product(name: "MDFInternationalization", package: "material-internationalization-ios"),
                 .product(name: "MDFTextAccessibility", package: "material-text-accessibility-ios")
             ],
+            path: ".",
             sources: [
                 "components/TextControls/src/OutlinedTextFields",
                 "components/TextControls/src/OutlinedTextAreas",

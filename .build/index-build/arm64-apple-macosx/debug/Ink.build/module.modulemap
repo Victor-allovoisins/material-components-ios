@@ -1,4 +1,0 @@
-module Ink {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/Ink/src"
-    export *
-}

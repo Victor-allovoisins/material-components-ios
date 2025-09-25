@@ -1,4 +1,0 @@
-module TextControlsOutlinedTextAreas {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/TextControls/src/OutlinedTextAreas"
-    export *
-}

@@ -1,4 +1,0 @@
-module PrivateKeyboardWatcher {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/private/KeyboardWatcher/src"
-    export *
-}

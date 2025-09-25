@@ -1,4 +1,0 @@
-module Typography {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/Typography/src"
-    export *
-}

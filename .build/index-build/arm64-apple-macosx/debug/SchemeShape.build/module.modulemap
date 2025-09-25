@@ -1,4 +1,0 @@
-module SchemeShape {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/schemes/Shape/src"
-    export *
-}

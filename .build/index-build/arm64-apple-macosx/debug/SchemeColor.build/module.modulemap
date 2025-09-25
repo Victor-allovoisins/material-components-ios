@@ -1,4 +1,0 @@
-module SchemeColor {
-    umbrella "/Users/victor/Developer/iOS/material-components-ios/components/schemes/Color/src"
-    export *
-}
