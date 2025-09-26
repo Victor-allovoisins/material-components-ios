@@ -1,1 +1,0 @@
-../../.build/checkouts/material-internationalization-ios/Sources/MDFInternationalization.h
