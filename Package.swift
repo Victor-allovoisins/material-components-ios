@@ -34,7 +34,8 @@ let package = Package(
                 "**/examples",
                 "**/tests",
                 "**/docs",
-                "**/*.xcassets"
+                "**/*.xcassets",
+                "**/*.bundle"
             ],
             sources: [
                 // Core dependencies
@@ -75,7 +76,34 @@ let package = Package(
                 "Typography/src",
                 "Typography/src/FontScaler",
                 "Typography/src/private",
-                "private/Color/src"
+                "private/Color/src",
+
+                // Buttons and dependencies
+                "Buttons/src",
+                "Buttons/src/Theming",
+                "Buttons/src/ShapeThemer",
+                "Buttons/src/ColorThemer",
+                "Buttons/src/ButtonThemer",
+                "Buttons/src/TypographyThemer",
+                "Ripple/src",
+                "Shadow/src",
+                "Ink/src",
+
+                // Chips
+                "Chips/src",
+
+                // Tabs
+                "Tabs/src/TabBarView",
+                "Badges/src",
+                "Badges/src/Appearance",
+
+                // TextFields (legacy)
+                "TextFields/src",
+                "Palettes/src",
+
+                // Additional theming
+                "TextControls/src/OutlinedTextFieldsTheming",
+                "TextControls/src/OutlinedTextAreasTheming"
             ],
             publicHeadersPath: "MaterialComponents",
             cSettings: [
@@ -114,7 +142,27 @@ let package = Package(
                 .headerSearchPath("Typography/src/FontScaler"),
                 .headerSearchPath("Typography/src/private"),
                 .headerSearchPath("private/Color/src"),
+                .headerSearchPath("Buttons/src"),
+                .headerSearchPath("Buttons/src/include"),
+                .headerSearchPath("Buttons/src/Theming"),
+                .headerSearchPath("Buttons/src/ShapeThemer"),
+                .headerSearchPath("Buttons/src/ColorThemer"),
+                .headerSearchPath("Buttons/src/ButtonThemer"),
+                .headerSearchPath("Buttons/src/TypographyThemer"),
+                .headerSearchPath("Ripple/src"),
+                .headerSearchPath("Shadow/src"),
+                .headerSearchPath("Ink/src"),
+                .headerSearchPath("Ink/src/private"),
+                .headerSearchPath("Chips/src"),
+                .headerSearchPath("Tabs/src/TabBarView"),
+                .headerSearchPath("Badges/src"),
+                .headerSearchPath("Badges/src/Appearance"),
+                .headerSearchPath("TextFields/src/include"),
+                .headerSearchPath("Palettes/src"),
+                .headerSearchPath("TextControls/src/OutlinedTextFieldsTheming"),
+                .headerSearchPath("TextControls/src/OutlinedTextAreasTheming"),
                 .headerSearchPath("MaterialComponents"),
+                .headerSearchPath("."),
                 .define("SWIFT_PACKAGE")
             ]
         )
